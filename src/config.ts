@@ -1,12 +1,12 @@
 export const SITE = {
-	title: 'Homepage',
-	description: 'A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.',
+	title: 'TrashMac Homepage',
+	description: 'The site where the trash starts.',
 	defaultLanguage: 'en_US',
 };
 
 export const OPEN_GRAPH = {
 	image: {
-		src: 'https://gethomepage.dev/homepage-og.png',
+		src: 'https://trashmac.pro/logo.png',
 		alt: 'hompage dashboard with logo'
 	},
 };
@@ -28,11 +28,11 @@ export const KNOWN_LANGUAGES = {
 
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/benphelps/homepage-docs/tree/main/`;
+export const GITHUB_EDIT_URL = `https://github.com/martintimmer/TrashMac-docs/tree/main/`;
 
-export const COMMUNITY_INVITE_URL = `https://discord.gg/k4ruYNrudu`;
+export const COMMUNITY_INVITE_URL = `https://instagram.com/martintimmer`;
 
-export const GITHUB_URL = `https://github.com/benphelps/homepage`;
+export const GITHUB_URL = `https://github.com/martintimmer/TrashMac-docs/`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
