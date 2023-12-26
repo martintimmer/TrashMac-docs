@@ -28,11 +28,11 @@ export const KNOWN_LANGUAGES = {
 
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/martintimmer/TrashMac-docs/tree/main/`;
+export const GITHUB_EDIT_URL = `https://github.com/martintimmer/TrashMac-docs/tree/main`;
 
 export const COMMUNITY_INVITE_URL = `https://instagram.com/martintimmer`;
 
-export const GITHUB_URL = `https://github.com/martintimmer/TrashMac-docs/`;
+export const GITHUB_URL = `https://github.com/martintimmer/TrashMac-docs`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
@@ -51,11 +51,7 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
 	en: {
 		'Getting Started': [
-			{ text: 'Installation', link: 'en/installation' },
-            { text: 'Docker', link: 'en/installation/docker' },
-            { text: 'Kubernetes', link: 'en/installation/k8s' },
-            { text: 'Unraid', link: 'en/installation/unraid' },
-            { text: 'Source', link: 'en/installation/source' },
+			{ text: 'Introduction', link: 'en/Introduction' },
 		],
 		'Configuration': [
             { text: 'Services', link: 'en/configs/services' },
