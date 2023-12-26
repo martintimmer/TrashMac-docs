@@ -12,5 +12,5 @@ export default defineConfig({
   preact(),
   // Enable React for the Algolia search component.
   react(), mdx()],
-  site: "https://gethomepage.dev"
+  site: "https://trashmac.pro"
 });
