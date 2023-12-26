@@ -6,7 +6,7 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
 	image: {
-		src: 'https://trashmac.pro/logo.png',
+		src: 'https://github.com/martintimmer/TrashMac-docs/blob/main/src/components/logo.png',
 		alt: 'hompage dashboard with logo'
 	},
 };
